@@ -53,12 +53,12 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ArenaNode.cs" />
-    <Compile Include="Assets\Scripts\Arena.cs" />
     <Compile Include="Assets\Scripts\Pokemon.cs" />
+    <Compile Include="Assets\Scripts\ArenaNode.cs" />
     <Compile Include="Assets\Scripts\Abilities\Ability.cs" />
+    <Compile Include="Assets\Scripts\Arena.cs" />
     <Compile Include="Assets\Scripts\Abilities\VineWhip\VineWhip.cs" />
-    <Compile Include="Assets\Scripts\Abilities\VineWhip\vinewhip_animator.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Ember\Ember.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

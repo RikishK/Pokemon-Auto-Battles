@@ -14,7 +14,8 @@ public class Pokemon : MonoBehaviour
     public int spdef;
     public float speed;
     public int range;
-
+    public int battleCount = 0;
+    public bool active = true;
     //Health Bar and Mana Bar
     public Slider healthSlider;
     public Slider energySlider;
@@ -31,7 +32,7 @@ public class Pokemon : MonoBehaviour
 
     //Battle Stuff
     public BattleState battleState = BattleState.Searching;
-    Pokemon myTarget;
+    public Pokemon myTarget;
 
     //Animation Stuff
     public Animator animator;
@@ -80,10 +81,20 @@ public class Pokemon : MonoBehaviour
     }
     public void battle()
     {
+        battleCount++;
+        if(myTarget == null)
+        {
+            
+            resetFaceDirection();
+            resetAnim();
+            battleState = BattleState.Searching;
+        }
         switch (battleState)
         {
             case (BattleState.Searching):
                 myTarget = myArena.getClosestTarget(myTeam, myNode);
+                
+                
                 if(myTarget != null)
                 {
                     battleState = BattleState.Moving;
@@ -109,6 +120,7 @@ public class Pokemon : MonoBehaviour
                 }
                 break;
             case (BattleState.Attacking):
+
 
                 if (checkAbility())
                 {
@@ -150,8 +162,7 @@ public class Pokemon : MonoBehaviour
         animator.SetBool("Walking", false);
         if (transform.position == myNode.transform.position)
         {
-            
-            
+            battleState = BattleState.Searching;
             battle();
         }
         else
@@ -163,13 +174,24 @@ public class Pokemon : MonoBehaviour
 
     IEnumerator BasicAttack()
     {
+     //check for target properly   
+        
         faceNode(myTarget.myNode);
         animator.SetBool("Basic_Attacking", true);
         yield return new WaitForSeconds(1f/speed);
-        dealAtkDamage(atk, myTarget);
-        animator.SetBool("Basic_Attacking", false);
+        if (!myTarget.active)
+        {
+            battleState = BattleState.Searching;
+            battle();
+        }
+        else
+        {
+            dealAtkDamage(atk, myTarget);
+            animator.SetBool("Basic_Attacking", false);
+            battleState = BattleState.Searching;
+            battle();
+        }
         
-        battle();
     }
 
     void faceNode(ArenaNode targetNode)
@@ -278,6 +300,34 @@ public class Pokemon : MonoBehaviour
         currHealth = Mathf.Clamp(currHealth - d, 0, health);
         myAbility.currEnergy += 5;
         updateBar();
+        if(currHealth == 0)
+        {
+            Destroy(gameObject);
+            active = false;
+        }
+
+
+    }
+
+    void dealSpAtkDamage(int damage, Pokemon target)
+    {
+        myAbility.currEnergy += 10;
+        //Debug.Log("Enegery: " + myAbility.currEnergy + " FROM " + myTeam.ToString());
+        target.takeSpAtkDamage(damage);
+    }
+
+    public void takeSpAtkDamage(int damage)
+    {
+        //Debug.Log("Taking Damage");
+        int d = Mathf.Clamp(damage - spdef, 1, damage);
+        currHealth = Mathf.Clamp(currHealth - d, 0, health);
+        myAbility.currEnergy += 5;
+        updateBar();
+        if (currHealth == 0)
+        {
+            Destroy(gameObject);
+            active = false;
+        }
 
 
     }
@@ -300,7 +350,7 @@ public class Pokemon : MonoBehaviour
         resetAnim();
         animator.SetBool("CastingAbility", true);
         faceNode(myTarget.myNode);
-        myAbility.useAbility(myTarget);
+        myAbility.useAbility(myTarget, atk, spatk);
         yield return new WaitForSeconds(secs);
         
         //Debug.Log("Ability Done");
@@ -309,4 +359,7 @@ public class Pokemon : MonoBehaviour
         updateBar();
         battle();
     }
+
+    
+    
 }

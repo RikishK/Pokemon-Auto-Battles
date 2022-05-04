@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556b6f63fb84f514aa897d111acbd12d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 200
+  health: 400
   currHealth: 0
   atk: 10
   spatk: 10
@@ -322,6 +322,8 @@ MonoBehaviour:
   myArena: {fileID: 0}
   myNode: {fileID: 0}
   myTeam: 0
+  battleState: 0
+  myTarget: {fileID: 0}
   animator: {fileID: 3201464627544476892}
 --- !u!1 &3440386443267536884
 GameObject:
@@ -556,7 +558,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &6818162061282661745
 MonoBehaviour:
   m_ObjectHideFlags: 0

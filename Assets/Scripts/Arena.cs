@@ -14,7 +14,12 @@ public class Arena : MonoBehaviour
     public float gap = 0.0f;
 
     ArenaNode[,] arenaNodes;
+
+    //pokemon
     public GameObject bulbasaur;
+    public GameObject charmander;
+
+
     List<Pokemon> pokemonsA;
     List<Pokemon> pokemonsB;
 
@@ -103,13 +108,26 @@ public class Arena : MonoBehaviour
         {
             if(p == poke.Bulbasaur)
             {
-                GameObject poke = Instantiate(bulbasaur);
-                Pokemon pp = poke.GetComponent<Pokemon>();
+                GameObject pok = Instantiate(bulbasaur);
+                Pokemon pp = pok.GetComponent<Pokemon>();
                 pokemonsA.Add(pp);
                 pp.myNode = randomValidNode(0, gridWidth, 0, 2);
+                pp.myNode.occupied = true;
                 pp.transform.position = pp.myNode.transform.position;
                 pp.myTeam = Team.A;
                 pp.myArena = this;
+            }
+            if(p == poke.Charmander)
+            {
+                GameObject pok = Instantiate(charmander);
+                Pokemon pp = pok.GetComponent<Pokemon>();
+                pokemonsA.Add(pp);
+                pp.myNode = randomValidNode(0, gridWidth, 0, 2);
+                pp.myNode.occupied = true;
+                pp.transform.position = pp.myNode.transform.position;
+                pp.myTeam = Team.A;
+                pp.myArena = this;
+                //pp.healthSlider.image.color = Color.red;
             }
         }
         foreach (poke p in pokesB)
@@ -120,6 +138,19 @@ public class Arena : MonoBehaviour
                 Pokemon pp = poke.GetComponent<Pokemon>();
                 pokemonsB.Add(pp);
                 pp.myNode = randomValidNode(0, gridWidth, 5, 7);
+                pp.myNode.occupied = true;
+                pp.transform.position = pp.myNode.transform.position;
+                pp.myTeam = Team.B;
+                pp.myArena = this;
+
+            }
+            if (p == poke.Charmander)
+            {
+                GameObject poke = Instantiate(charmander);
+                Pokemon pp = poke.GetComponent<Pokemon>();
+                pokemonsB.Add(pp);
+                pp.myNode = randomValidNode(0, gridWidth, 5, 7);
+                pp.myNode.occupied = true;
                 pp.transform.position = pp.myNode.transform.position;
                 pp.myTeam = Team.B;
                 pp.myArena = this;
@@ -139,7 +170,7 @@ public class Arena : MonoBehaviour
         }
         foreach (Pokemon p in pokemonsB)
         {
-            //p.battle();
+            p.battle();
         }
     }
 
@@ -169,17 +200,21 @@ public class Arena : MonoBehaviour
         if(team == Team.A)
         {
             int minDistance = 1000;
-            int index = 0;
+            int index = -1;
             int step = -1;
             foreach (Pokemon p in pokemonsB)
             {
                 step++;
-                int distance = distance_BFS(myNode, p.myNode);
-                if (distance <= minDistance)
+                if (p.active)
                 {
-                    minDistance = distance;
-                    index = step;
+                    int distance = distance_BFS(myNode, p.myNode);
+                    if (distance <= minDistance)
+                    {
+                        minDistance = distance;
+                        index = step;
+                    }
                 }
+                
             }
 
             return pokemonsB[index];

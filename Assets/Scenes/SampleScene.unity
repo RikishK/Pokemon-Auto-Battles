@@ -240,8 +240,9 @@ MonoBehaviour:
   gridHeight: 8
   gap: 0
   bulbasaur: {fileID: 3201464627544476893, guid: 1f742bcdec96d9e45a81e1872f70da71, type: 3}
-  pokesA: 00000000
-  pokesB: 00000000
+  charmander: {fileID: 7559805630872974250, guid: 0d6af9ad2c79ad043bc239071772f577, type: 3}
+  pokesA: 0000000001000000
+  pokesB: 0000000000000000
 --- !u!4 &1858038967
 Transform:
   m_ObjectHideFlags: 0
