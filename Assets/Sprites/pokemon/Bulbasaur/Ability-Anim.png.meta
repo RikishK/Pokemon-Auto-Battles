@@ -168,6 +168,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1252,6 +1253,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Ability-Anim_1: -5719996420992037266
+      Ability-Anim_29: -6761428399118596155
+      Ability-Anim_4: 1560688640140039010
+      Ability-Anim_6: -6783917100577816889
+      Ability-Anim_11: -2607591656053556008
+      Ability-Anim_30: -7051605783744367039
+      Ability-Anim_20: 5504852390855418543
+      Ability-Anim_5: 8414329715162718770
+      Ability-Anim_31: 2180480228058035708
+      Ability-Anim_13: -3354265806842069777
+      Ability-Anim_41: -6394699430395439909
+      Ability-Anim_46: -2827707954812689964
+      Ability-Anim_22: -8948229597599887155
+      Ability-Anim_47: 5036983447040420605
+      Ability-Anim_3: 3485145013731123794
+      Ability-Anim_43: -1156507917814335851
+      Ability-Anim_2: -911451383398624730
+      Ability-Anim_21: 6309911717923966096
+      Ability-Anim_40: 5822112191802697438
+      Ability-Anim_38: 8602183028998158159
+      Ability-Anim_14: 3872529604786227735
+      Ability-Anim_25: 7040856356420403839
+      Ability-Anim_26: -6814352129168673363
+      Ability-Anim_39: 4508967173117515925
+      Ability-Anim_45: 2444378776921338065
+      Ability-Anim_44: -2180138616795888547
+      Ability-Anim_28: 848380510204196370
+      Ability-Anim_23: 8401357350175645882
+      Ability-Anim_17: -6140210052184495105
+      Ability-Anim_27: -22287506730251215
+      Ability-Anim_32: -8990809950884318461
+      Ability-Anim_24: 4630195549324054205
+      Ability-Anim_34: -353552599417765685
+      Ability-Anim_42: -6295861852319292490
+      Ability-Anim_37: -6690832167363584876
+      Ability-Anim_33: 6145313746755896015
+      Ability-Anim_18: 1505913905406565913
+      Ability-Anim_16: -1300911632560645493
+      Ability-Anim_8: 7761432192260334332
+      Ability-Anim_36: 6916358509478742952
+      Ability-Anim_10: 5176341743530550972
+      Ability-Anim_7: -2123237311908982299
+      Ability-Anim_0: 6830785982886540934
+      Ability-Anim_19: -2060142071420834398
+      Ability-Anim_15: -4951780535712847361
+      Ability-Anim_35: 5537001062935656031
+      Ability-Anim_9: -5669747894346982463
+      Ability-Anim_12: -4575630357968942123
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

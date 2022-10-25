@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -436,6 +437,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Hex - IDland AI_36: 2392635473863731323
+      Hex - IDland AI_32: 6883387436435174888
+      Hex - IDland AI_47: -301851112666572452
+      Hex - IDland AI_22: -4411498920662879612
+      Hex - IDland AI_33: -8154990284837861131
+      Hex - IDland AI_38: 4970408399127967193
+      Hex - IDland AI_34: -4788490260076107296
+      Hex - IDland AI_44: 1172249107995345074
+      Hex - IDland AI_25: 1227712218636584838
+      Hex - IDland AI_45: 8038819634894497182
+      Hex - IDland AI_26: -7430568329243348638
+      Hex - IDland AI_27: 6314538184761347604
+      Hex - IDland AI_24: -6681541300066797331
+      Hex - IDland AI_23: 5057043084667876761
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

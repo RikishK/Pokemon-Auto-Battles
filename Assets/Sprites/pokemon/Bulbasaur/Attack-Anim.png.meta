@@ -288,6 +288,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -2212,6 +2213,95 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Attack-Anim_9: -9083866074258142620
+      Attack-Anim_50: 3279033066905269229
+      Attack-Anim_8: -5808384076033189067
+      Attack-Anim_18: -1255064692432441849
+      Attack-Anim_72: 1883525733621614510
+      Attack-Anim_21: -27290164995785277
+      Attack-Anim_27: 9157836257260967032
+      Attack-Anim_71: 3049118718218467427
+      Attack-Anim_46: -2867718909612138782
+      Attack-Anim_63: -6206366525563232629
+      Attack-Anim_17: 8341379537247990678
+      Attack-Anim_31: 5136221666790831289
+      Attack-Anim_57: -8012506602170535588
+      Attack-Anim_20: -4921969149415397486
+      Attack-Anim_25: -2868253394163770383
+      Attack-Anim_33: 4790906318246322503
+      Attack-Anim_45: 7590215712659641623
+      Attack-Anim_11: 8823040940276220795
+      Attack-Anim_26: 8092479275077904913
+      Attack-Anim_81: -7171582521671155787
+      Attack-Anim_10: -843320802969605276
+      Attack-Anim_24: 7405429458919301512
+      Attack-Anim_12: 6823879014322254437
+      Attack-Anim_35: 8988159802977901816
+      Attack-Anim_0: 3125189937158801180
+      Attack-Anim_37: -6159808548347472020
+      Attack-Anim_1: -3291828487319583665
+      Attack-Anim_44: -3444062565953232931
+      Attack-Anim_36: -7037328184842681479
+      Attack-Anim_65: -2476582798952392777
+      Attack-Anim_6: 3647696675011227558
+      Attack-Anim_2: -7863456467506180856
+      Attack-Anim_53: 4859862108364779002
+      Attack-Anim_42: -5459549374221279993
+      Attack-Anim_52: 5481020930269516092
+      Attack-Anim_60: 264329121705753541
+      Attack-Anim_7: 325892363276376417
+      Attack-Anim_56: 2395281269804674760
+      Attack-Anim_4: 5934196506150995211
+      Attack-Anim_69: -494069810996205208
+      Attack-Anim_67: -5346713933707831064
+      Attack-Anim_39: -6094828488349993774
+      Attack-Anim_43: 6799875531675255478
+      Attack-Anim_58: 195154580441774186
+      Attack-Anim_47: -181239315941187493
+      Attack-Anim_73: -204494550787570873
+      Attack-Anim_22: 8221822131889401455
+      Attack-Anim_55: 4512923054289556755
+      Attack-Anim_30: 12729883413028407
+      Attack-Anim_59: -8689290945571979993
+      Attack-Anim_15: 7593886511335391239
+      Attack-Anim_61: 1025658077301691725
+      Attack-Anim_84: 7795973018948933841
+      Attack-Anim_3: -2334801879135524902
+      Attack-Anim_75: -8975658224784507685
+      Attack-Anim_34: -3644691619760324675
+      Attack-Anim_16: 812150068653124136
+      Attack-Anim_66: 4809608144198733557
+      Attack-Anim_51: 7959578556226185907
+      Attack-Anim_13: -7668606688730897199
+      Attack-Anim_32: -2597389851299239092
+      Attack-Anim_86: -3661062363687640469
+      Attack-Anim_23: 5354830914920206727
+      Attack-Anim_40: -5913758102841036130
+      Attack-Anim_64: 6235386528991886704
+      Attack-Anim_62: -2524339476865278998
+      Attack-Anim_70: 770357091270120097
+      Attack-Anim_87: -951636750097110708
+      Attack-Anim_54: -2574957804841688209
+      Attack-Anim_82: 875586924523647820
+      Attack-Anim_74: 943054595483170513
+      Attack-Anim_28: 6402870849010976027
+      Attack-Anim_79: -3279285475978310452
+      Attack-Anim_49: -3838982069650659439
+      Attack-Anim_85: 6498796008629668616
+      Attack-Anim_14: -9018376083710954403
+      Attack-Anim_76: 3835793683987166527
+      Attack-Anim_68: 1909251451481641682
+      Attack-Anim_48: -5658248505066632434
+      Attack-Anim_77: -7821680169991355606
+      Attack-Anim_83: -5965095863869252250
+      Attack-Anim_5: -662495521351451391
+      Attack-Anim_41: -7186208009486933166
+      Attack-Anim_80: -7913720512363183755
+      Attack-Anim_29: 4907233740580886515
+      Attack-Anim_78: 4605017517870417855
+      Attack-Anim_19: -1081850523874466413
+      Attack-Anim_38: 1759894573227953995
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

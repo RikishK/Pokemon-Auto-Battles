@@ -204,6 +204,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1540,6 +1541,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Walking-Anim_62: 5466494934299441671
+      Walking-Anim_34: 8138682306068148157
+      Walking-Anim_33: -978299712522129057
+      Walking-Anim_18: 5154523377926883117
+      Walking-Anim_25: -5354897722222160016
+      Walking-Anim_11: 2629909031951439205
+      Walking-Anim_29: 4638224086866277276
+      Walking-Anim_31: -6536533623077807291
+      Walking-Anim_59: 3581527791970650484
+      Walking-Anim_57: 1451109536248869850
+      Walking-Anim_21: 2550333744182597339
+      Walking-Anim_32: 723951738145285278
+      Walking-Anim_24: -8015930440686789238
+      Walking-Anim_38: -5157349169043322559
+      Walking-Anim_36: 5781300403412061954
+      Walking-Anim_16: 6382664129758200722
+      Walking-Anim_37: -6921826846452573496
+      Walking-Anim_72: 4125659436658917892
+      Walking-Anim_35: -3887007250864447941
+      Walking-Anim_79: 5841556105744744565
+      Walking-Anim_68: 8936114435319167032
+      Walking-Anim_67: -4667714896807852008
+      Walking-Anim_77: -942988457617476437
+      Walking-Anim_78: -1180286142634416020
+      Walking-Anim_50: 9073145964520708765
+      Walking-Anim_53: 7258314782862034773
+      Walking-Anim_20: -6852897888839794047
+      Walking-Anim_70: 7539449361076894850
+      Walking-Anim_75: 7376943806462462119
+      Walking-Anim_13: -6854785230113861700
+      Walking-Anim_51: 8358237320970115918
+      Walking-Anim_19: -3881170446100253840
+      Walking-Anim_17: -8505022386028658318
+      Walking-Anim_39: 5306281668771892355
+      Walking-Anim_66: -7281008306433488464
+      Walking-Anim_22: -3098985240666985043
+      Walking-Anim_28: 1835964927945821700
+      Walking-Anim_10: -9219355568382278319
+      Walking-Anim_74: -4139941194963865370
+      Walking-Anim_76: 3041998205701293244
+      Walking-Anim_56: 6800729147617096345
+      Walking-Anim_60: 9083488628949651473
+      Walking-Anim_54: -5303932159632012161
+      Walking-Anim_15: 2805276147797635752
+      Walking-Anim_61: -696178593170236690
+      Walking-Anim_26: 6444459513645202955
+      Walking-Anim_12: 6770031997489744042
+      Walking-Anim_30: -2917604727828351928
+      Walking-Anim_58: -1177409390313168892
+      Walking-Anim_69: 6748680809045648446
+      Walking-Anim_14: -654686090719670200
+      Walking-Anim_23: -7125862508164619334
+      Walking-Anim_27: -3920411748325781126
+      Walking-Anim_55: 8177193636170755890
+      Walking-Anim_71: -6354854068340901564
+      Walking-Anim_52: 4353600505025445399
+      Walking-Anim_63: 8171200547353422138
+      Walking-Anim_73: 3691464795363271334
+      Walking-Anim_64: -3131493686702116386
+      Walking-Anim_65: -7842031803996227684
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

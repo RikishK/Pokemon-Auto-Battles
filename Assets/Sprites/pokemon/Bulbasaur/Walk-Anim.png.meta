@@ -168,6 +168,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1252,6 +1253,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Walk-Anim_27: 3847571645956740152
+      Walk-Anim_42: 1505610051066823241
+      Walk-Anim_8: -5270193761787653561
+      Walk-Anim_43: -534638026179543838
+      Walk-Anim_11: -5633531108414933283
+      Walk-Anim_38: -5539820168569470589
+      Walk-Anim_12: -2928106419624550788
+      Walk-Anim_25: 7281402018704088588
+      Walk-Anim_29: -7133606728253543461
+      Walk-Anim_17: -2818523930086747668
+      Walk-Anim_28: 5116504290124814365
+      Walk-Anim_44: 3236111803250651472
+      Walk-Anim_33: -3695437077876628748
+      Walk-Anim_47: -223886065245112479
+      Walk-Anim_3: 188385991853992566
+      Walk-Anim_19: 3698208065472861900
+      Walk-Anim_35: 6516866386514216100
+      Walk-Anim_37: -253407732688109045
+      Walk-Anim_14: 4893457813856538282
+      Walk-Anim_4: -3035643009190366946
+      Walk-Anim_20: 6469665954927622411
+      Walk-Anim_24: 2492310830854274769
+      Walk-Anim_32: 2184416357806072930
+      Walk-Anim_26: 3064642554626491226
+      Walk-Anim_31: -5715692763805128191
+      Walk-Anim_36: 3166476538511946738
+      Walk-Anim_21: -9120680346780072108
+      Walk-Anim_40: 85877859493072088
+      Walk-Anim_6: 4262967637577707557
+      Walk-Anim_16: 3523254233994848077
+      Walk-Anim_13: 4077755455299359970
+      Walk-Anim_22: -2459173271421032201
+      Walk-Anim_39: -4720899615699269816
+      Walk-Anim_45: -3914331916772703460
+      Walk-Anim_15: 3896042356894219205
+      Walk-Anim_0: 2419215890893748935
+      Walk-Anim_18: 4697512132488483659
+      Walk-Anim_9: -2758058682153385390
+      Walk-Anim_34: -8015898064817129277
+      Walk-Anim_7: 3409670478548808982
+      Walk-Anim_10: 7066242291011397585
+      Walk-Anim_1: 7463764014767572131
+      Walk-Anim_5: -671152577426516614
+      Walk-Anim_30: 3342879517645440394
+      Walk-Anim_41: -5960109640655336372
+      Walk-Anim_23: -4303408213936232882
+      Walk-Anim_46: 4425358725743804240
+      Walk-Anim_2: -2229252598733437693
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      EmberSpritesheet_4: 5598653239059203160
+      EmberSpritesheet_1: 6225921478862160916
+      EmberSpritesheet_3: -6954513807714045007
+      EmberSpritesheet_2: -4555375977029089309
+      EmberSpritesheet_0: -4870678871787324602
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
